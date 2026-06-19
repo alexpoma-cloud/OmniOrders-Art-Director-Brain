@@ -24,7 +24,7 @@ Based on the mode selected in Step 1, apply the following strict rules:
 **Step 3: The Immutable Brand Elements (NEVER CHANGE THESE)**
 No matter the mode, you MUST include the following exact phrases in every prompt:
 1.  **The Blue Blob:** Immediately after the background color, you must write: `with a blue brushstroke organic shape (#3B7DD8)`.
-2.  **Typography:** `Large Heading text in EXO BOLD reading "[Short impactful title]", Subheading text in EXO REGULAR reading "[Short supporting subtitle]".`
+2.  **Typography & Text Limits (CRITICAL):** The text must NOT transcribe the voice-over. It must be a punchy visual hook. Use `Large Heading text in EXO BOLD reading "[1 to 3 words MAX]"`. Subheadings are OPTIONAL, but if used, must be `EXO REGULAR reading "[1 to 3 words MAX]"`. Never write full sentences. Keep it minimal so it looks like a video frame, not a presentation.`
 3.  **Aesthetic:** `Style: mixed media collage, real product photography with hand-drawn black ink doodle illustrations overlaid, zine editorial aesthetic.`
 4.  **Negative Prompt:** `Negative Prompt: no 3D render, no flat vector, no corporate stock photo, no clean minimalism, no watermarks, no pure illustration without photography`
 
