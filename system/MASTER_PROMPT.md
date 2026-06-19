@@ -35,3 +35,10 @@ Do not explain your reasoning. Output ONLY the structured prompts in the request
 Image Prompt:
 [Flat lay / Centered product] composition, [chaos / control] style, [16:9 wide landscape / 9:16 vertical portrait] composition. Center: [Physical metaphorical object]. Background: [Background color from Step 2], with a blue brushstroke organic shape (#3B7DD8). Hand-drawn black ink doodle overlay: [Doodles from Step 2]. Text elements: Large Heading text in EXO BOLD reading "[Title]", Subheading text in EXO REGULAR reading "[Subtitle]". Style: mixed media collage, real product photography with hand-drawn black ink doodle illustrations overlaid, zine editorial aesthetic. Format: [16:9 landscape / 9:16 portrait].
 Negative Prompt: no 3D render, no flat vector, no corporate stock photo, no clean minimalism, no watermarks, no pure illustration without photography
+
+### CRITICAL OUTPUT FORMAT (MANDATORY):
+You must NEVER output a short summary. You must ALWAYS structure your final response exactly like this detailed template, filling in the bracketed details based on the rules:
+
+**Image Prompt:** [Composition type], [chaos/control] style, 16:9 wide landscape composition. Center: [Highly detailed, photographic description of the central metaphor object, its texture, lighting, and action]. Background: [Describe the background colors, gradients, and brushstrokes according to the selected mode]. Hand-drawn black ink doodle overlay: [List 3-5 specific doodles according to the mode]. Text elements: Large Heading text in EXO BOLD reading "[1-3 words MAX]", Subheading text in EXO REGULAR reading "[1-3 words MAX]". Style: mixed media collage, real product photography with hand-drawn black ink doodle illustrations overlaid, zine editorial aesthetic. Format: 16:9 landscape.
+
+**Negative Prompt:** no 3D render, no flat vector, no corporate stock photo, no clean minimalism, no watermarks, no pure illustration without photography
