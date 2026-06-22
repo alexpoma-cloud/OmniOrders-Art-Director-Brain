@@ -25,8 +25,8 @@ Read the provided script segment and classify its core message:
 - **Sticky notes:** physical yellow and pink sticky notes with 1–3 word handwritten labels (e.g., "Last Quarter", "Shipping Cost"). These are the primary text elements in CHAOS MODE.
 
 **If CONTROL MODE:**
-- **Background:** flat solid mint/teal green (#2EC4A5) filling the entire canvas. Flat graphic canvas, not a photograph.
-- **Brushstroke:** one large organic OmniOrders paint brushstroke (#3B7DD8), smooth and fluid, clean edges, placed as a mid-layer.
+- **Background:** flat solid OmniOrders green (#01bb9d) filling the entire canvas. Flat graphic canvas, not a photograph.
+- **Brushstroke:** one large organic OmniOrders paint brushstroke (#0060a8), smooth and fluid, clean edges, placed as a mid-layer behind the props.
 - **Scene mood:** confident, clear, resolved. The answer is visible.
 - **Doodles:** clean hand-drawn black ink doodles floating on canvas: checkmarks, upward arrows, sparkle stars, sync arrows. Max 3–4, restrained.
 - **Props:** clean torn paper cards, open rate card documents, calculators showing a winning number, physical product cutouts — all floating directly on the canvas.
@@ -38,9 +38,9 @@ Read the provided script segment and classify its core message:
 
 Regardless of mode, every prompt MUST follow these rules:
 
-1. **Canvas, not scene (CRITICAL):** The background is a flat graphic canvas (#16213E or #2EC4A5). Elements float on it. There is NO desk, NO surface, NO table, NO room, NO environment. Think motion-design frame, not product photography setup.
+1. **Canvas, not scene (CRITICAL):** The background is a flat graphic canvas (#16213E for CHAOS, #01bb9d for CONTROL). Elements float on it. There is NO desk, NO surface, NO table, NO room, NO environment. Think motion-design frame, not product photography setup.
 
-2. **The Brushstroke:** One large organic paint brushstroke placed as a mid-layer behind the props. CHAOS = #0060a8. CONTROL = #3B7DD8. Smooth, fluid, clean edges, no texture. Describe as: `one large organic OmniOrders paint brushstroke [color], smooth and fluid, clean edges, placed as a central mid-layer behind the floating props`.
+2. **The Brushstroke:** One large organic paint brushstroke placed as a mid-layer behind the props. Both modes use #0060a8. Smooth, fluid, clean edges, no texture. Describe as: `one large organic OmniOrders paint brushstroke (#0060a8), smooth and fluid, clean edges, placed as a central mid-layer behind the floating props`.
 
 3. **Floating collage elements:** Every prop floats directly on the canvas. Use torn paper edges, masking tape strips, and paper tags with string to anchor them visually — but they float in space, not on a surface. Props overlap and collide freely.
 
@@ -57,8 +57,8 @@ Regardless of mode, every prompt MUST follow these rules:
 ## Step 4: Visual Reference Style
 
 The correct visual style looks like this:
-- Navy or teal flat canvas fills the frame.
-- A large organic blue paint blob/brushstroke sits in the center-upper area as a graphic element.
+- Navy (#16213E) or OmniOrders green (#01bb9d) flat canvas fills the frame.
+- A large organic blue paint blob/brushstroke (#0060a8) sits in the center-upper area as a graphic mid-layer element.
 - Torn paper cards with masking tape float around the brushstroke.
 - Price tags with string dangle from props.
 - Physical product photos (folded hoodie, t-shirt stack) are cut out and float on the canvas.
@@ -70,7 +70,13 @@ This is NOT a flat lay photograph. This is NOT a desk scene. This is a graphic, 
 
 ---
 
-## Step 5: Output Format
+## Step 5: Script Segmentation Rule
+
+When a script paragraph covers more than one distinct idea or visual beat, split it into two separate prompts. Each prompt must communicate one clear visual idea. The split point is where the narrative shifts — a new subject, a new action, or a new concept introduced. Always generate both prompts when a paragraph can be divided.
+
+---
+
+## Step 6: Output Format
 
 Do not explain your reasoning. Output ONLY the structured prompt:
 
@@ -79,9 +85,9 @@ Do not explain your reasoning. Output ONLY the structured prompt:
 **Image Prompt:**
 Graphic collage composition, [chaos / control] style, [16:9 wide landscape / 9:16 vertical portrait] format.
 
-Canvas: flat [#16213E / #2EC4A5] background — not a surface, not a room, a flat graphic canvas.
+Canvas: flat [#16213E / #01bb9d] background — not a surface, not a room, a flat graphic canvas.
 
-Brushstroke: one large organic OmniOrders paint brushstroke [#0060a8 / #3B7DD8], smooth and fluid, clean edges, placed as a central mid-layer behind the floating props.
+Brushstroke: one large organic OmniOrders paint brushstroke (#0060a8), smooth and fluid, clean edges, placed as a central mid-layer behind the floating props.
 
 Floating elements: [List 4–6 props floating directly on the canvas — torn paper cards with masking tape, sticky notes, price tags with string, physical product cutouts, printed report fragments, calculators. Describe each element's position and overlap.]
 
